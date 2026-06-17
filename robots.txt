@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://znakownia.pl/sitemap.xml
