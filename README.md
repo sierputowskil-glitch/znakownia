@@ -38,6 +38,8 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 - portfolio: pod każdym kaflem `<p class="portfolio-desc"></p>` na 2–3 linijki opisu (puste = niewidoczne); kafle mają `id="realizacja-…"`
 - poprawka: usunięte `content-visibility:auto` z sekcji — przez nie linki do sekcji (np. „Zobacz realizacje”) przewijały za daleko
 
+- Stand Exlantix: 6 zdjęć z premiery (sesja Sezmoo) — podesty i plansze modeli; okładka z planszą „EXLANTIX ES”
+
 ## Wcześniejsze zmiany (wrzesień 2026)
 
 - nowy tekst w hero (własny warsztat, zero podwykonawców)
@@ -50,7 +52,7 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 
 ## Do zrobienia
 
-- zdjęcia: Sante, Dombi / Metalzbyt (do końca października), Stand Exlantix, Eurostyl (mockupy), Lody Insta (z Instagrama); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
+- zdjęcia: Sante, Dombi / Metalzbyt (do końca października), Eurostyl (mockupy), Lody Insta (z Instagrama); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
 - opisy realizacji (Olga) → wkleić do `<p class="portfolio-desc">` pod kaflem
 - dane spółki w stopce i pełna firma w „©” — czeka na KRS/NIP
 - polityka prywatności Znakowni — dziś stopka i zgoda w formularzu nadal prowadzą do sezmoo.com/polityka-prywatnosci
