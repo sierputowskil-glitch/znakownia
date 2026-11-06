@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://znakownia.pl/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-06</lastmod>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/world-of-warships/world-of-warships-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/world-of-warships/world-of-warships-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/world-of-warships/world-of-warships-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/world-of-warships/world-of-warships-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-10.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-11.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/baltic-towers/baltic-towers-12.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-litery-przestrzenne-elewacja-budynku-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-oznakowanie-fasady-perforowanej-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-logo-na-elewacji-widok-z-drona-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-litery-nad-wejsciem-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-litery-3d-na-fasadzie-zblizenie-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-napis-na-elewacji-azurowej-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-oznakowanie-budynku-widok-z-gory-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/santemedica-gdansk/znakownia-santemedica-gdansk-litery-przestrzenne-realizacja-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/stand-exlantix/stand-exlantix-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/stand-exlantix/stand-exlantix-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/stand-exlantix/stand-exlantix-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/stand-exlantix/stand-exlantix-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/stand-exlantix/stand-exlantix-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-10.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-11.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-12.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/sztuka-kebab/sztuka-kebab-13.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/kapka-cafe/kapka-cafe-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/kapka-cafe/kapka-cafe-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/kapka-cafe/kapka-cafe-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-litery-3d-szyld-nad-witryna-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-kaseton-i-naklejki-na-witrynie-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-szyld-z-literami-przestrzennymi-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-oznakowanie-lodziarni-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-oznakowanie-lokalu-elewacja-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://znakownia.pl/assets/realizacje/prawdziwe-lody-sopot/znakownia-prawdziwe-lody-sopot-szyldy-na-elewacji-budynku-06.webp</image:loc></image:image>
   </url>
 </urlset>
