@@ -47,7 +47,7 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 - zdjęcia WebP (max 1600 px, okładki 1200×900), nazwy plików pod SEO: `znakownia-<klient>-<miasto>-<opis>-NN.webp`
 - kafelki „Zdjęcia wkrótce” (Dombi / Metalzbyt, Tabliczki Eurostyl) przeniesione na koniec sekcji Realizacje
 - adres: ul. Olgierda 45, 81-534 Gdynia (stopka + schema.org, nowe współrzędne geo)
-- SEO: „Gdańsk” → „Trójmiasto” w tytule, opisach, schema.org i FAQ
+- SEO: wszędzie „Gdańsk, Gdynia, Sopot” zamiast „Trójmiasto” (tytuł, opisy, schema.org, FAQ, ticker, hero, stopka)
 - formularz: wysyłka przez FormSubmit (`formsubmit.co/ajax/produkcja@znakownia.pl`) + pole-pułapka `_honey`; Cloudflare Turnstile zostaje, ale skrypt ładuje się dopiero przy wysyłce formularza (bez preloadu w `<head>`); token nie jest weryfikowany po stronie serwera (FormSubmit go nie sprawdza)
 - własna polityka prywatności: `polityka-prywatnosci.html` (stopka, zgoda w formularzu, sitemap)
 - baner cookies + Google Consent Mode v2: GTM ładuje się dopiero po zgodzie (analityczne/marketingowe), wybór w localStorage `znk-cookie-consent`, link „Ustawienia cookies” w stopce i `/#cookies`
