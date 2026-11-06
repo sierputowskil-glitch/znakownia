@@ -47,6 +47,10 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 - zdjęcia WebP (max 1600 px, okładki 1200×900), nazwy plików pod SEO: `znakownia-<klient>-<miasto>-<opis>-NN.webp`
 - kafelki „Zdjęcia wkrótce” (Dombi / Metalzbyt, Tabliczki Eurostyl) przeniesione na koniec sekcji Realizacje
 - adres: ul. Olgierda 45, 81-534 Gdynia (stopka + schema.org, nowe współrzędne geo)
+- SEO: „Gdańsk” → „Trójmiasto” w tytule, opisach, schema.org i FAQ
+- formularz: wysyłka przez FormSubmit (`formsubmit.co/ajax/produkcja@znakownia.pl`) + pole-pułapka `_honey`; Turnstile usunięty (bez backendu nie był weryfikowany), brak preloadu skryptu Cloudflare
+- własna polityka prywatności: `polityka-prywatnosci.html` (stopka, zgoda w formularzu, sitemap)
+- stopka: dane spółki (KRS, NIP, REGON), godziny pn.–pt. 9:00–17:00; schema.org: legalName, taxID, KRS/REGON, openingHours
 
 ## Wcześniejsze zmiany (wrzesień 2026)
 
@@ -62,8 +66,7 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 
 - zdjęcia: Dombi / Metalzbyt, Eurostyl (mockupy); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
 - opisy realizacji (Olga) → wkleić do `<p class="portfolio-desc">` pod kaflem
-- dane spółki w stopce i pełna firma w „©” — czeka na KRS/NIP
-- polityka prywatności Znakowni — dziś stopka i zgoda w formularzu nadal prowadzą do sezmoo.com/polityka-prywatnosci
+- polityka prywatności: do weryfikacji przez prawnika; GTM ładuje się bez banera zgody na cookies — dodać baner (Consent Mode)
 - formularz pod szybką wycenę (usługa, lokalizacja, wymiary, zdjęcie, termin) — wymaga zmian w skrypcie i backendzie
-- formularz wysyła na `/api/contact` lub `/.netlify/functions/contact` — na GitHub Pages żaden z nich nie istnieje
+- FormSubmit: pierwsze wysłanie formularza wyśle mail aktywacyjny na produkcja@znakownia.pl — kliknąć „Activate”; potem można podmienić adres w JS na losowy alias z FormSubmit, żeby ukryć e-mail
 - formularz kontaktowy używa Cloudflare Turnstile (`data-sitekey` w `index.html`) — klucz produkcyjny musi zgadzać się z domeną
