@@ -39,6 +39,14 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 - poprawka: usunięte `content-visibility:auto` z sekcji — przez nie linki do sekcji (np. „Zobacz realizacje”) przewijały za daleko
 
 - Stand Exlantix: 6 zdjęć z premiery (sesja Sezmoo) — podesty i plansze modeli; okładka z planszą „EXLANTIX ES”
+- Stand Exlantix: usunięte zdjęcie 05 (auto bez standu w kadrze)
+
+## Poprawki z 06.11
+
+- portfolio: Santemedica (Gdańsk) — 8 zdjęć z drona zamiast placeholdera Sante; Prawdziwe Lody (Sopot) — 6 zdjęć zamiast placeholdera Lody Insta
+- zdjęcia WebP (max 1600 px, okładki 1200×900), nazwy plików pod SEO: `znakownia-<klient>-<miasto>-<opis>-NN.webp`
+- kafelki „Zdjęcia wkrótce” (Dombi / Metalzbyt, Tabliczki Eurostyl) przeniesione na koniec sekcji Realizacje
+- adres: ul. Olgierda 45, 81-534 Gdynia (stopka + schema.org, nowe współrzędne geo)
 
 ## Wcześniejsze zmiany (wrzesień 2026)
 
@@ -52,7 +60,7 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 
 ## Do zrobienia
 
-- zdjęcia: Sante, Dombi / Metalzbyt (do końca października), Eurostyl (mockupy), Lody Insta (z Instagrama); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
+- zdjęcia: Dombi / Metalzbyt, Eurostyl (mockupy); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
 - opisy realizacji (Olga) → wkleić do `<p class="portfolio-desc">` pod kaflem
 - dane spółki w stopce i pełna firma w „©” — czeka na KRS/NIP
 - polityka prywatności Znakowni — dziś stopka i zgoda w formularzu nadal prowadzą do sezmoo.com/polityka-prywatnosci
