@@ -49,6 +49,24 @@ function ensureStyles() {
     }
     .glightbox-container .gbtn.disabled{opacity:.28!important}
     .glightbox-container .gslide-image img{cursor:pointer}
+    .glightbox-container{position:fixed!important;inset:0!important;z-index:999999!important}
+    .glightbox-container .goverlay{position:fixed!important;inset:0!important;height:100%!important;background:rgba(8,9,11,.97)!important;opacity:1!important}
+    .glightbox-container .gcontainer,
+    .glightbox-container .gslider,
+    .glightbox-container .gslide,
+    .glightbox-container .gslide-inner-content{position:absolute!important;inset:0!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:100%!important;margin:0!important;transform:none!important;opacity:1!important}
+    .glightbox-container .ginner-container{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:14px!important;width:100%!important;max-width:100%!important;height:100%!important;padding:76px 80px 28px!important;box-sizing:border-box!important}
+    .glightbox-container .gslide-media{flex:0 1 auto!important;display:flex!important;align-items:center!important;justify-content:center!important;min-height:0!important;max-width:100%!important;margin:0!important}
+    .glightbox-container .gslide-image img{display:block!important;width:auto!important;height:auto!important;min-width:0!important;max-width:100%!important;max-height:calc(100vh - 190px)!important;max-height:calc(100dvh - 190px)!important;object-fit:contain!important;margin:0 auto!important}
+    .glightbox-container .gslide-description{flex:0 0 auto!important;position:relative!important;width:100%!important;max-width:760px!important;padding:0!important;background:transparent!important}
+    @media (max-width:768px){
+      .glightbox-container .ginner-container{padding:72px 12px 96px!important}
+      .glightbox-container .gslide-image img{max-height:calc(100vh - 230px)!important;max-height:calc(100dvh - 230px)!important}
+      .glightbox-container .gprev,
+      .glightbox-container .gnext{top:auto!important;bottom:20px!important;transform:none!important;width:56px!important;height:52px!important}
+      .glightbox-container .gprev{left:calc(50% - 64px)!important}
+      .glightbox-container .gnext{right:calc(50% - 64px)!important}
+    }
   `;
   document.head.appendChild(style);
 }
