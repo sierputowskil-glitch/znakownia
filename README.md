@@ -48,8 +48,9 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 - kafelki „Zdjęcia wkrótce” (Dombi / Metalzbyt, Tabliczki Eurostyl) przeniesione na koniec sekcji Realizacje
 - adres: ul. Olgierda 45, 81-534 Gdynia (stopka + schema.org, nowe współrzędne geo)
 - SEO: „Gdańsk” → „Trójmiasto” w tytule, opisach, schema.org i FAQ
-- formularz: wysyłka przez FormSubmit (`formsubmit.co/ajax/produkcja@znakownia.pl`) + pole-pułapka `_honey`; Turnstile usunięty (bez backendu nie był weryfikowany), brak preloadu skryptu Cloudflare
+- formularz: wysyłka przez FormSubmit (`formsubmit.co/ajax/produkcja@znakownia.pl`) + pole-pułapka `_honey`; Cloudflare Turnstile zostaje, ale skrypt ładuje się dopiero przy wysyłce formularza (bez preloadu w `<head>`); token nie jest weryfikowany po stronie serwera (FormSubmit go nie sprawdza)
 - własna polityka prywatności: `polityka-prywatnosci.html` (stopka, zgoda w formularzu, sitemap)
+- baner cookies + Google Consent Mode v2: GTM ładuje się dopiero po zgodzie (analityczne/marketingowe), wybór w localStorage `znk-cookie-consent`, link „Ustawienia cookies” w stopce i `/#cookies`
 - stopka: dane spółki (KRS, NIP, REGON), godziny pn.–pt. 9:00–17:00; schema.org: legalName, taxID, KRS/REGON, openingHours
 
 ## Wcześniejsze zmiany (wrzesień 2026)
@@ -66,7 +67,8 @@ Plik `.nojekyll` musi zostać, inaczej Pages pominie katalog `_astro`.
 
 - zdjęcia: Dombi / Metalzbyt, Eurostyl (mockupy); po wgraniu zamienić `<div class="portfolio-card ...">` na `<a href="…" class="portfolio-card portfolio-card-project glightbox">` wg wzoru istniejących kafelków
 - opisy realizacji (Olga) → wkleić do `<p class="portfolio-desc">` pod kaflem
-- polityka prywatności: do weryfikacji przez prawnika; GTM ładuje się bez banera zgody na cookies — dodać baner (Consent Mode)
+- polityka prywatności: do weryfikacji przez prawnika
+- sprawdzić, czy kontener GTM-PC44RK8J należy do Znakowni
 - formularz pod szybką wycenę (usługa, lokalizacja, wymiary, zdjęcie, termin) — wymaga zmian w skrypcie i backendzie
 - FormSubmit: pierwsze wysłanie formularza wyśle mail aktywacyjny na produkcja@znakownia.pl — kliknąć „Activate”; potem można podmienić adres w JS na losowy alias z FormSubmit, żeby ukryć e-mail
 - formularz kontaktowy używa Cloudflare Turnstile (`data-sitekey` w `index.html`) — klucz produkcyjny musi zgadzać się z domeną
